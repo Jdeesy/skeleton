@@ -1,0 +1,77 @@
+/* black = #000000 , dark blue = #263248 , light blue = #7E8AA2 , white = #FFFFFF, orange = #FF9800 */
+
+#create-user input {
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 15px 50px 30px;
+}
+
+.errors {
+  color: #FF9800;
+  font-size: 1.25em;
+  text-align: center;
+  -webkit-text-stroke: .35px black;
+}
+
+.container {
+  width: 65%;
+  margin: 20px auto;
+  border: 2px solid #263248;
+  padding: 0px 20px 20px 20px;
+  border-radius: 15px 50px 30px;
+}
+
+.homelink {
+  top: 20%;
+  font-size: 1.5em;
+  margin-left: 20px;
+  position: relative;
+}
+
+header {
+  left: -1%;
+  top: -10px;
+  width: 102%;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  background-color: #7E8AA2;
+  border-bottom: 2px solid #263248;
+}
+
+nav {
+  top: 50%;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+nav form {
+  display: inline;
+}
+
+nav form input {
+  text-align: center;
+  border-radius: 15px 50px 30px;
+}
+
+body {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a:link, a:visited {
+  color: #263248;
+}
+
+a:hover{
+  color: #FF9800;
+  text-shadow: 2px 2px #263248;
+}
+
+button {
+  border-radius: 15px 50px 30px;
+}
